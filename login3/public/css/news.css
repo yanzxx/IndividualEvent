@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+		font-family: "平方";;
+	    font-size: 10px;
+	    
+	}
+	body {
+		margin: 0px;
+		padding: 0px;
+		background-color: #ffffff;
+	
+}
+ul{list-style: none;}
+a{text-decoration: none;}
+.container{
+	width: 94%;
+	margin-left: 3%;
+	margin-top: 40px;
+	border-radius: 20px;
+	
+	position: relative;
+	
+}
+.list{
+	display: inline-block;
+	width: 96%;
+	position: relative;
+	margin-left: 2%;
+}
+.list li{
+	
+	width: 100%;
+	margin-top: 50px;
+	display: inline-block;
+	background-color: #fff;
+}
+.list li img{
+	margin-bottom: 20px;
+	float:left;
+	
+}
+.list li .img{
+	margin-top: 30px;
+	width:50%;
+	
+}
+.list li .imgr{
+	float: right;
+}
+.list li .con{
+	float: left;
+	margin-left: 2%;
+	margin-top: 15px;
+}
+.con{
+	width: 40%;
+	margin-top: 30px;
+}
+.con .tabs{
+	display: inline-block;
+	width: 60px;
+	height:25px;
+	padding-top:5px;
+	text-align: center;
+	color: #fff;
+	background-color: #2e96dd;
+	border-radius: 5px;
+	font-size: 0.7em;
+	margin-top: 40px;
+	
+}
+.con .top{
+	font-size: 3em;
+	color: #01C6BF;
+}
+.con .word{
+	width: 100%;
+	margin-top: 10px;
+	color: #000;
+	font-size: 3em;
+	
+	margin-top: 40px;
+	font-family: "微软雅黑";
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.time{
+	margin-top: 15px;
+	width: 100%;
+}
+.time .sj{
+	float: left;
+	font-size: 1.5em;
+	color: #7F7F7F;
+	margin-top: 1px;
+	margin-left: 1%;
+}
+.time img{
+	width:20px;
+	float: left;
+}
+.time a{
+	float: right;
+	margin-right: 2%;
+	color: #6275b7;
+}
+.pages{
+	text-align: center;
+	height: 70px;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.pages .ym{
+	width: 30px;
+	height: 23px;
+	padding-top: 7px;
+	display: inline-block;
+	border-radius: 50%;
+	border:1px solid #b8b8b8;
+	color: #B8B8B8;
+	font-size: 1.5em;
+	margin-left: 10px;
+	cursor: default;
+}
+.last{
+	height: 50px;
+	width: 100%;
+}
+.ym1{
+	border:1px solid #5f5f5f;
+	color: #5F5F5F;
+}
+.try{
+	width:150px;
+	height: 33px;
+	padding-top: 12px;
+	display: inline-block;
+	text-align: center;
+	background-color: #00B1A7;
+	font-size: 2em;
+	color: #fff;
+	border-radius: 8px;
+	margin-top: 40px;
+}
+

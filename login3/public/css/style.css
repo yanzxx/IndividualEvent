@@ -1,0 +1,216 @@
+*{margin: 0;padding:0}
+body{font-family: "微软雅黑";width:100%;height: 100%;
+	min-width: 1024px;
+	}
+ul{list-style: none;}
+a{text-decoration: none;}
+@media only screen and (min-width: 1280px) and (max-width: 1980px){
+	
+	.phonenum{
+		font-size:3em;
+		margin-top: 50px;
+		width: 27%;
+	}
+	nav a{
+		font-size:1em;
+		margin-top: 0px;
+	}
+	.information ul{
+		width: 40%;
+	}
+	.btn{
+		width: 18%;
+	}
+}
+/*@media screen and (min-width: 1280px) and (max-width: 1560px) {
+	.phonenum{
+		font-size:1.5em;
+		margin-top: 50px;
+		width: 27%;
+	}
+	body{
+		
+	}
+	nav a{
+		font-size:1em;
+		margin-top: 0px;
+	}
+	.information ul{
+		width: 40%;
+	}
+	.btn{
+		width: 14%;
+		font-size: 2em;
+	}
+}*/
+@media screen and (max-width: 414px){
+	header{
+		position: relative;
+	}
+	.information ul{
+		width: 50%;
+	}
+	.phonenum{
+		font-size: 1.5em;
+		margin-top: 80px;
+		width: 20%;
+	}
+	.btn{
+		font-size: 0.5em;
+		width: 18%;
+	}
+	.hr{
+		margin-top: ;
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+	.phonenum{
+		font-size:2em;
+		height: 50px;
+		margin-top: 70px;
+		width: 25%;
+	}
+	.information ul li{
+		font-size: 0.9em;
+	}
+	.btn{
+		font-size: 0.7em;
+		width: 19%;
+	}
+	nav a{
+		font-size:0.7em;
+	}
+	.information ul{
+		width: 40%;
+	}
+	
+}
+
+header{
+	height: 80px;
+	width: 100%;
+	background-color: #3e3e40;
+	
+	
+	
+}
+nav{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+nav *{
+	float: left;
+}
+nav img{
+	margin-left: 5%;
+	margin-top: 0.7%;
+	width: 9%;
+	max-width: 100%;
+}
+.logo{
+	display: inline-block;
+	font-size: 30px;
+	color: #01c6bf;
+	margin-top: 25px;
+	float: left;
+	margin-left: 20px;
+}
+nav a{
+	color: #fff;
+	display: inline-block;
+	height: 46px;
+	padding-top:30px;
+	padding-left:1%;
+	padding-right: 1%;
+	font-size: 1em;
+	text-align: center;
+	margin-left: 2%;
+	cursor: default;
+	float: right;
+	margin-top: 2px;
+	border-top:2px solid #3E3E40;
+}
+nav a:hover{
+	border-top:2px solid #00ee98;
+	color: #00EE98;
+}
+nav .about{
+	margin-right: 5%;
+}
+.container{
+	width: 100%;
+}
+footer{
+	height: 260px;
+	width: 100%;
+	background-color: #3E3E40;
+	
+}
+.information{
+	width:99%;
+	margin-top: -10px;
+	height: 180px;	
+}
+.hr{
+	display: inline-block;
+	width: 3px;
+	height: 85px;
+	background-color: #00EE98;
+	margin-left: 30px;
+	float: left;
+	margin-top: 60px;
+}
+.information ul{
+	float: left;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+.information ul li{
+	color: #fff;
+	margin-top: 10px;
+}
+.phonenum{
+	color: #00EE98;
+	display: inline-block;
+	
+	display: inline-block;
+	float: left;
+	margin-left: 2%;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.btn{
+	
+	display: inline-block;
+	height: 35px;
+	padding-top: 15px;
+	border:1px solid #00EE98;
+	color: #00EE98;
+	border-radius: 25px;
+	margin-top: 70px;
+	margin-left: 5%;
+	cursor: default;
+	
+}
+.btn span{
+	display: inline-block;
+	margin-top: -5px;
+}
+iframe{
+	
+	
+}
+.btn img{
+	margin-left: 15%;
+	float: left;
+	margin-right: 10px;
+	margin-top: -5px;
+}
+.wrong{
+	display: none;
+}
+nav .home{
+	color: #00ee98;
+	border-top:2px solid #00ee98;
+}

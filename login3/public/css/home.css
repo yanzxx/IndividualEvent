@@ -1,0 +1,124 @@
+@media only screen and (min-width: 1280px) and (max-width: 1980px) {
+	
+}
+@media screen and (max-width: 414px){
+	.con .btn{
+		width: 40%;
+		font-size: 3em;
+	}
+	body{
+		background-color: pink;
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+	
+	
+}
+
+html {
+		font-family: "平方";;
+		
+	    font-size: 10px;
+	}
+	body {
+		margin: 0px;
+		padding: 0px;
+		height: 980px;
+	}
+	.documentation {
+		width: 1100px;
+		margin: 0px auto;
+		padding: 100px 0px;
+	}
+	.documentation h3, p {
+		text-align: center;
+	}
+	.documentation h3 {
+		margin: 0px 0px 20px 0px;
+		font-weight: 300;
+		font-size: 2em;
+	}
+	a, a:visited {
+		color: #E54028;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #c22d18;
+		text-decoration: underline;  
+		cursor: pointer;
+	}
+	
+	
+.middle{
+	height: 500px;
+	width: 100%;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+}
+.code{
+	max-width: 100%;
+	width: 25%;
+	margin-top: 40px;
+	margin-left: 10%;
+	
+}
+.con{
+	height: 500px;
+	width: 40%;
+	
+	display: inline-block;
+	float: right;
+	margin-right: 10%;
+	margin-top: 50px;
+}
+.con img{
+	margin-top: 40px;
+}
+.con .one{
+	font-size:4em ;
+	font-weight: bold;
+	color: #01c6bf;
+	
+	text-align: left;
+}
+.con .one span{
+	color: #838383;
+}
+.con .two{
+	font-size: 5em;
+	color: #01C6BF;
+	text-align: left;
+	margin-top: -20px;
+	
+}
+.con .twos{
+	margin-top: -50px;
+}
+.con .three{
+	color: #01C6BF;
+	font-size: 2.5em;
+	text-align: left;
+	margin-top: -40px;
+}
+.con .btn{
+	display: inline-block;
+	/*width: 25%;*/
+	height: 35px;
+	padding-top: 5px;
+	border:1px solid #01C6BF;
+	color: #01C6BF;
+	text-align: center;
+	font-size: 3em;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 25px;
+}
+.con a{
+	text-decoration: none;
+}
+.rotate{
+	width: 40%;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 5%;
+}

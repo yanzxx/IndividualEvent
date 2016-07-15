@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="textml; charset=UTF-8">
+    <link rel="stylesheet" href="css/home.css" />
+	
+	
+	<!--Required libraries-->
+    <script src="js/min/jquery-v1.10.2.min.js" type="text/javascript"></script>
+    <script src="js/min/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+    <script src="js/min/jquery-finger-v0.1.0.min.js" type="text/javascript"></script>
+
+    
+	<link href="css/flickerplate.css"  type="text/css" rel="stylesheet">
+    <script src="js/min/flickerplate.min.js" type="text/javascript"></script>
+	
+	
+	<script>
+	$(document).ready(function(){
+		
+		$('.flicker-example').flicker();
+	});
+	</script>
+
+</head>
+<body>
+	
+	<!--Basic example-->
+	<div class="flicker-example" data-block-text="false">
+		
+		<ul>
+			
+			<li data-background="img/t1.png">
+				<div class="flick-title">业界领先技术，打造全新体验</div>
+				<div class="flick-sub-text">Industry leading technology, creating a new experience.</div>
+			</li>
+			
+			<li data-background="img/forest.jpg">
+				<div class="flick-title">多种展示方式，满足客户需求</div>
+				<div class="flick-sub-text">A variety of display, to meet customer demand.</div>
+			</li>
+			
+			<li data-background="img/t4.png">
+				<div class="flick-title">视觉完美呈现，720度无死角浏览</div>
+				<div class="flick-sub-text">Visual perfection, no dead Angle of 720 degrees to browse.</div>
+			</li>
+			
+		</ul>
+		
+	</div>
+	<div class="middle">
+		<iframe class="rotate"  src ="house/index.html" frameborder="0" marginheight="0" marginwidth="0" frameborder="0" scrolling="no" id="ifm" name="iframeMain"  width="40%"></iframe>
+		<div class="con">
+			
+			<p class="one">720<span>°</span></p>
+			<p class="two">让您随心所欲</p>
+			<p class="two twos">以您的方式展示世界</p>
+			<p class="three">从此不再平凡！</p>
+			<a class="btn">快来体验吧！</a>
+		</div>
+	</div>
+</body>
+</html>

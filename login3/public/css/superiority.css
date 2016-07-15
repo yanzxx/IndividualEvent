@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html { font-size: 10px;}
+body {
+		font-family: "平方";;
+	   
+		margin: 0px;
+		padding: 0px;
+		background-color: #fff;
+	
+}
+ul{list-style: none;}
+a{text-decoration: none;}
+.container{
+	width: 92%;
+	margin-left: 4%;
+	border:1px solid #fff;
+}
+.top {
+	margin-top: 70px;
+}
+.top p{
+	text-align: center;
+}
+.top .big{
+	font-size: 4em;
+}
+.top .en{
+	color: #01C6BF;
+	font-size: 2em;
+}
+.main{
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.main .pics {
+	width: 100%;
+	text-align: center;
+	
+}
+.main .pics img{
+	margin-left: 5%;
+}
+.list{
+	width: 100%;
+	display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    margin-top: 30px;
+}
+.list li{
+	float: left;
+	margin-left: 5%;
+	display: inline-block;
+}
+.list li p{
+	text-align: left;
+	margin-top: 15px;
+	font-size: 2em;
+	color: #000;
+}
+.list li .tt{
+	font-size: 2.5em;
+	margin-top: 50px;
+}
+.list li .ge{
+	width:40px;
+	height: 1px;
+	background-color: #01C6BF;
+}
+.top .jt{
+	text-align: left;
+	width: 70%;
+	margin-left: 18%;
+	line-height: 40px;
+	
+	font-size: 2.5em;
+	margin-top: 60px;
+}

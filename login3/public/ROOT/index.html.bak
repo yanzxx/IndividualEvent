@@ -1,0 +1,494 @@
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Greenwood Campbell: Digital Agency - Sitecore & Umbraco Web Development - Bournemouth, Dorset
+</title><meta name="description" content="Greenwood Campbell are digital traditionalists, we are a digital agency with a human approach. We build things that actually matter to people, useful things." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=no;">
+<meta name="robots" content="index, follow">  
+<style id="critical-css">.apt-cover-layer{position:fixed;left:0;top:0;bottom:auto;right:auto;height:100%;width:100%;opacity:1;background-color:#fff;z-index:501;}</style>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta property="og:locale" content="en_GB"/>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Greenwood Campbell | Digital Agency" />
+<meta property="og:description" content="Greenwood Campbell are digital traditionalists, we are a digital agency with a human approach. We build things that actually matter to people, useful things." />
+<meta property="og:url" content="http://greenwoodcampbell.com" />
+<meta property="og:image" content="http://www.greenwoodcampbell.com/assets/img/greenwood-campbell-cover.png" />
+<meta property="og:site_name" content="Greenwood Campbell | Digital Agency"/>
+<meta name="twitter:url" content="@GC_people">
+<meta name="twitter:creator" content="@GC_people">
+ 
+<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="http://www.greenwoodcampbell.com/assets/img/favicon.png?v=0.1" type="image/png" />
+
+<script src="js/nml1rvw.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+<link rel="stylesheet" href="http://www.greenwoodcampbell.com/styles/main.min.css?v=0.3">
+
+<script src="js/vendor/modernizr2.8.3.min.js"></script>
+<script src="js/vendor/jquery1.11.3.min.js"></script>
+<script src="js/vendor/TweenMax1.17.0.min.js"></script>
+<script src="js/vendor/ScrollMagic.min.js"></script>
+<script src="js/vendor/animation.gsap.min.js"></script>
+<script src="js/vendor/jquery.magnific-popup.min.js"></script>
+        
+<script src="js/vendor/three.min.js"></script>
+<script src="js/vendor/three-helpers.js"></script>
+
+
+<script src="js/vendor/system.min.js"></script>
+
+<script src="http://www.greenwoodcampbell.com/js/scripts-dist.js?v=0.3"></script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'js/analytics.js', 'ga');
+    ga('create', 'UA-66256834-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    window.__wtw_lucky_site_id = 43348;
+    (function () {
+        var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+        wa.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://cdn') + '.luckyorange.com/w.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+    })();
+</script>
+</head>
+<body class="animall">
+    <form method="post" action="index.html" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="WF///jRwSZ1zlKIjFx2VnsPSbIulTnd17YXsCJyKcxJukBeigDxOps5pfffZHGU7Y7yKzXEFUNg+0yaSx1YYWWPdrD30C/00XkmkcRyLC58=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+   
+        
+        <div class="apt-cover-layer"></div>
+        <div class="apt-loading-bar"></div>    
+
+        <a class="logo" href="index.html" title="Home">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 49" enable-background="new 0 0 200 49">
+                <g><path d="M11.8 22.1c-6 0-11.2-4.4-11.2-10.8 0-6 4.8-10.8 11.1-10.8 2.2 0 5.1.7 7.7 2.2v3.2c-2.4-1.8-5.2-2.6-7.8-2.6-4.4 0-7.9 3.4-7.9 8s3.7 8 8 8c1.7 0 3.4-.5 5-1.2v-4.9h-4.9v-2.7h7.8v9.1c-2 1.3-5.3 2.5-7.8 2.5z"/><path d="M36.8 21.6l-6.5-9.2h-2.7v9.2h-3v-20.6h5.9c4.8 0 6.6 3.3 6.6 5.7 0 2.6-1.6 4.3-3.7 5.2l6.9 9.8h-3.5zm-6.7-18h-2.6v6.1h2.6c2.7 0 3.8-1.5 3.8-3.1.1-1.8-1.4-3-3.8-3z"/><path d="M43 21.6v-20.6h13.1v2.7h-10.1v5.6h7.9v2.7h-7.9v7h10.1v2.7h-13.1z"/><path d="M59.8 21.6v-20.6h13.1v2.7h-10.1v5.6h7.9v2.7h-7.9v7h10.1v2.7h-13.1z"/><path d="M92.5 21.6l-12.9-16.2v16.3h-3v-20.7h3l12.9 16.3v-16.3h3v20.7h-3z"/><path d="M120.7 21.9h-3.1l-4.7-15.8-4.8 15.8h-3.1l-6.7-20.9h3.1l5.2 16.9 5-16.9h2.7l5 16.9 5.1-16.9h3.1l-6.8 20.9z"/><path d="M141 22.1c-6 0-11-4.4-11-10.8 0-6.3 5-10.8 11-10.8s11 4.4 11 10.8c0 6.3-4.9 10.8-11 10.8zm0-18.8c-4.4 0-7.8 3.4-7.8 8s3.5 8 7.8 8c4.4 0 7.8-3.4 7.8-8 .1-4.5-3.4-8-7.8-8z"/><path d="M166.5 22.1c-6 0-11-4.4-11-10.8 0-6.3 5-10.8 11-10.8s11 4.4 11 10.8c0 6.3-4.9 10.8-11 10.8zm0-18.8c-4.4 0-7.8 3.4-7.8 8s3.5 8 7.8 8c4.4 0 7.8-3.4 7.8-8 .1-4.5-3.4-8-7.8-8z"/><path d="M188.4 21.6h-6.7v-20.6h6.6c6 0 11.2 4.2 11.2 10.3-.1 6.1-5 10.3-11.1 10.3zm-.1-18h-3.7v15.4h3.4c5.4 0 8.2-3.5 8.2-7.7 0-4.5-3.6-7.7-7.9-7.7z"/><path d="M11.6 29.7c-4.4 0-7.8 3.4-7.8 8s3.5 8 7.8 8c2.7 0 5.1-.9 7.2-2.5v3.2c-2.2 1.3-4.7 2-7.2 2-6 0-11-4.4-11-10.8s5-10.8 11-10.8c2.6 0 5 .8 7.3 2.1v3.2c-2.3-1.4-5-2.4-7.3-2.4z"/><path d="M37.9 48l-2.1-5.2h-9.4l-2.1 5.2h-3.2l8.6-20.9h2.8l8.6 20.9h-3.2zm-6.8-17.4l-3.6 9.6h7.3l-3.7-9.6z"/><path d="M61.3 48v-16.3l-7.4 9.4-7.4-9.4v16.3h-3v-20.6h3l7.4 9.6 7.4-9.6h3v20.6h-3z"/><path d="M75.4 39.8h-3.5v8.2h-3v-20.6h6.2c5.2 0 7.2 3.2 7.2 6.2.1 4.2-3.4 6.2-6.9 6.2zm-.4-9.8h-3.1v7.1h3.2c2.4 0 4.1-1.2 4.1-3.5 0-1.8-1-3.6-4.2-3.6z"/><path d="M93 48h-7.4v-20.6h5.9c4.5 0 6.2 2.7 6.2 5.2 0 1.7-.9 3.1-2.6 3.9 3.1.8 4.7 3.1 4.7 5.4 0 4.2-3.6 6.1-6.8 6.1zm-1.8-18h-2.7v5.8h2.3c2.6 0 3.9-1 3.9-3.1 0-1.3-1.1-2.7-3.5-2.7zm.8 8.5h-3.5v6.9h4c2.4 0 4.2-1.2 4.2-3.5-.1-2-1.3-3.4-4.7-3.4z"/><path d="M103.8 48v-20.6h13.1v2.6h-10.1v5.6h7.9v2.7h-7.9v7.1h10.1v2.6h-13.1z"/><path d="M120.6 48v-20.6h3v18h9.7v2.6h-12.7z"/><path d="M136.1 48v-20.6h3v18h9.7v2.6h-12.7z"/></g></svg>
+        </a>
+
+
+        <div class="nav-ico">
+            <span></span>
+            <span></span>
+            <span></span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" enable-background="new 0 0 33 33">
+                <path d="M33,2H10.7C6,2,2.2,5.8,2.2,10.5v4.6c0,4.7,3.8,8.5,8.5,8.5h4.2"/>
+                <polygon points="12,20 12,27 20,23.5 "/>
+            </svg>
+        </div>
+
+        <nav class="nav-extra">
+            <ul class="nav-list">
+                <li><a href="index.html" data-type="page-transition" class="expl">Explore</a></li>
+                <li><a href="contact/index.html" data-type="page-transition">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="nav-group">
+            <nav class="nav-main">
+                <ul class="nav-list">
+                    <li><a href="culture/index.html" data-type="page-transition">Culture</a></li>
+                    <li><a href="services/index.html" data-type="page-transition">Services</a></li>
+                    <li><a href="clients/index.html" data-type="page-transition">Clients</a></li>
+                    <li><a href="careers/index.html" data-type="page-transition">Careers</a></li>
+                    <li><a href="events/index.html" data-type="page-transition">Events</a></li>
+                    <li><a href="http://blog.greenwoodcampbell.com/" target="_blank">News</a></li>
+                    <li><a href="contact/index.html" data-type="page-transition">Contact</a></li>
+                </ul>
+
+                <a href="http://vimeo.com/140051174" class="btn-block ico-play" data-type="popup-video">
+                    <figure>
+                        <img src="assets/img/adam-video.jpg">
+                    </figure>
+                </a>
+                <h2 class="spec">Greenwood Campbell in a nutshell.</h2>
+                <div class="msg">
+                    <span data-line="Know">Know</span>
+                    <span data-line="Thy">Thy</span>
+                    <span data-line="User">User</span>
+                </div>
+
+
+            </nav>
+            <div class="contact-details">
+                <ul>
+                    <li><a href="tel:01202555124" title="Call us">Tel: 01202 555 124</a></li>
+                    <li><a href="mailto:hello@greenwoodcampbell.com" title="Email us">Email: hello@greenwoodcampbell.com</a></li>
+                </ul>   
+            </div> 
+
+            <div class="social-details">
+                <ul>
+                    <li>Find us on</li>
+            <li><a href="https://www.facebook.com/greenwoodcampbell" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/GC_people" target="_blank">Twitter</a></li>
+                    <li><a href="https://vimeo.com/greenwoodcampbell/" target="_blank">Vimeo</a></li>
+                </ul>   
+            </div> 
+
+        </div>
+
+
+        <div class="cover"></div> 
+
+        <div class="rotate">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" enable-background="new 0 0 120 120"><g fill="#fff"><path d="M86.4 30.4v59.3c0 6.8-5.5 12.3-12.3 12.3h-28.3c-6.8 0-12.3-5.5-12.3-12.3v-59.3c0-6.8 5.5-12.3 12.3-12.3h28.4c6.7 0 12.2 5.5 12.2 12.3zm-46.7 59.2c0 3.4 2.8 6.1 6.1 6.1h28.4c3.4 0 6.1-2.8 6.1-6.1v-59.2c0-3.4-2.8-6.1-6.1-6.1h-28.4c-3.4 0-6.1 2.8-6.1 6.1v59.2zM10.3 50.3l-9-13.9h6.3c0-10.1 8.2-18.3 18.3-18.3v5.4c-7.1 0-12.9 5.8-12.9 12.9h6.3l-9 13.9zM109.7 69.7l9 13.9h-6.3c0 10.1-8.2 18.3-18.3 18.3v-5.4c7.1 0 12.9-5.8 12.9-12.9h-6.3l9-13.9z"/></g></svg>
+        </div>
+
+        <div class="quick">
+            <span class="spec">We're loading the experience.</span>
+            <small class="spec">Looking for a quick <small class="spec"><a href="contact/index.html" class="link">contact?</a></small></small>
+        </div>
+
+        <div id="awwwards">
+            <a href="http://www.awwwards.com/web-design-awards/greenwood-campbell-digital-agency" target="_blank">Awwwards</a>
+        </div>
+
+        <div id="cssda">
+            <a href="http://www.cssdesignawards.com/sites/greenwood-campbell/27157/" target="_blank">CSS Design Awards</a>
+        </div>
+
+        <main id="main">
+            <div class="apt-home apt-main-content">
+                <div class="bt"></div>
+                <div class="bb"></div>
+                <div class="bl"></div>
+                <div class="br"></div>
+
+
+                <section class="intro">
+                    <div class="intro-right">
+                        <div class="msg">
+                            <span data-line="Digital">Digital</span>
+                            <span data-line="Traditionalists">Traditionalists</span>
+                        </div>
+                        <article>
+                            <h1 class="spec">The digital agency with a human approach.</h1>
+                            <a class="btn btn--gho-dark expl">Explore</a>
+                            <a class="btn btn--gho-dark js-openNav">Menu</a>
+                        </article>
+                    </div>
+
+
+                    <div class="intro-mobile"></div>
+                </section>
+
+
+
+
+
+
+                <div class="intro-info hide">
+                    <article>
+                       <figure>
+                            <img src="assets/img/ico-drag-mobile.svg" />
+                        </figure>
+                        <p>Move your device around.<br>Tap on touch points to interact.</p>
+                        <a class="btn btn--gho-dark">OK, got it</a>
+                    </article>
+                </div>
+
+                <div class="intro-info-desktop hide">
+                    <article>
+                        <figure>
+                            <img src="assets/img/ico-drag.svg" />
+                        </figure>
+                        <p>Click and drag to look around.<br>Use touch points to interact.</p>
+                        <a class="btn btn--gho-dark">OK, got it</a>
+                    </article>
+                </div>        
+
+
+                <section class="panels">
+
+                    <article id="pop1A">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Know">Know</span>
+                                <span data-line="Thy User">Thy User</span>
+                            </div>
+                            <h3 class="hl6">The Story</h3>
+                            <p class="spec">Greenwood Campbell is the digital agency that focuses on people. People don’t browse the internet, they use it to get things done, and they usually don’t have much time to do it.</p>
+
+                            <p class="quote--s">When Lancelot Capability Brown would design a spectacular new garden as at Blenheim palace, he’d create stupendous things to see, undulating grassed areas, scatterings of trees and serpentine lakes, a gardenless informal new style of landscaping. Though he would wait until a dusting of snow covered it all before opening the gardens to the public, after the people had taken in the experience of the incredible vistas, he’d observe the paths they’d made in the snow. Only then would he lay paths around the garden.</p>
+                            <figure>
+                                <img src="assets/img/panels/know-thy-user.jpg">
+                            </figure>
+                            <p>This is our approach to every digital project. Until we’ve learnt exactly what you and your customers want to achieve we won’t touch a thing. We understand people, their motivations, habits and moods. We recognise that people don’t browse the internet, they use it as a tool to get things done. Using this insight we’ll help you craft personalized content using the latest technology to create the right journey for them, regardless of device, so they can book a hotel room, enquire about surgery, or get their iPad fixed.</p>
+                            <p>The realm of digital and the corridors of the internet are ever-expanding as is our expertise. With each new client we apply this knowledge while learning something new, this cross-industry intelligence allows us to cater to you no matter the field of business giving you the ultimate benefits. We’re digital connoisseurs devoted to understanding how people interact online and building things that matter to people, useful things.
+                            </p>
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="services/transformation/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+                    <article id="pop1B">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Build">Build</span>
+                                <span data-line="Better">Better</span>
+                                <span data-line="Connections">Connections</span>
+                            </div>
+                            <h3 class="hl6">Client Relationships</h3>
+                            <p class="spec">Good old fashioned service is as important to us as cutting edge technology, to put it simply, we believe that the relationships we forge with our clients are as imperative as the tech savvy solutions that have laid the foundation of our agency.</p>
+                            <figure>
+                                <img src="assets/img/panels/build-better-connections.jpg">
+                            </figure>
+                            <p>We take care of the day-to-day running of your account being your first port of call for any queries, quotes or questions. Our clients are our first priority and that’s the way we like it, that’s why we approach all calls, emails, meetings and lunches as though it’s the first. Think of us as the conduit to link you with developers, strategists, support staff and our SEO stars.</p>
+                            <p>We want to help you grow your business through a cleaner understanding of tech trends and the ever- expanding digital landscape. We’re about sharing digital knowledge so when we’re not servicing our clients in-house you can spot us at our illustrious industry events; Quench and Fable. We love a good chat and want to hear from you about your business.</p>
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="clients/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article id="pop1C">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Change">Change</span>
+                                <span data-line="The">The</span>
+                                <span data-line="Standard">Standard</span>
+                            </div>
+                            <h3 class="hl6">Culture</h3>
+                            <p class="spec">In the beginning there were just two and with them the first of our many enduring traditions were born. A handshake at the start and end of each day, ensuring everyone spends a bit of time connecting to one another.</p>
+                            <figure>
+                                <img src="assets/img/panels/change-the-standard.jpg">
+                            </figure>
+                            <p>This culture of respect, hard work, value and fun is the core element of our agency. Culture is key. We’re incredibly proud of what we’ve built, with staff attrition less than 10% over 6 years, far less than national average for digital agencies. This means when new clients join us, they’re guaranteed to be working with the same team in 5 years as they are today.
+                            </p>
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="culture/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+                    <article id="pop2A">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Architects">Architects</span>
+                                <span data-line="of Usability">of Usability</span>
+                            </div>
+                            <h3 class="hl6">Creative</h3>
+                            <p class="spec">Using our unique insight to get inside the mind of the user, to understand what ticks them off and most importantly - makes them tick.</p>
+                            <figure>
+                                <img src="assets/img/panels/architects-of-usability.jpg">
+                            </figure>
+                            <p>An experience is all about emotion and creating memories, so why should an online experience be any different? We endeavour to fashion encompassing experiences certain to be memorable. Anything can look beautiful, but we believe beautiful need to be practical too.</p>
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="services/immersive-design/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="pop2B">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Banning">Banning</span>
+                                <span data-line="Complicated">Complicated</span>
+                            </div>
+                            <h3 class="hl6">Development</h3>
+                            <p class="spec">We take a different view because our team is unique, we’re not just web developers we’re engineers, scientists and problem solvers.</p>
+                            <figure>
+                                <img src="assets/img/panels/banning-complicated.jpg">
+                            </figure>
+                            <p>Our outstanding team have crafted a line of digital services within industries as diverse as hospitality, retail, and healthcare, by focusing on the blend of people, tech and methods to maximise the areas of production, quality, and efficiency.</p>
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="services/innovative-tech/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="pop2C">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Minimising">Minimising</span>
+                                <span data-line="Effort">Effort</span>
+                            </div>
+                            <h3 class="hl6">Support</h3>
+                            <p class="spec">Technical bugs and mishaps plague all of us in the digital world, our support team are on hand to help offering hourly, monthly, or unlimited 24 hour support.</p>
+                            <figure>
+                                <img src="assets/img/panels/maximising-experience-minimising-effort.jpg">
+                            </figure>
+                            <p>Your problems matter to us so when issues arise give us the signal and we’ll be there finding the quickest methods to debug and fix the issue. Specialising in support for everything digital including; Umbraco, Sitecore and Immediacy Content Management Systems.</p>
+                            <p>Our techno wizards apply our rapid response times to get you back up and running as soon as possible.</p>
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="services/innovative-tech/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="pop2D">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Purveyors">Purveyors</span>
+                                <span data-line="of Process">of Process</span>
+                            </div>
+                            <h3 class="hl6">Project Delivery</h3>
+                            <p class="spec">We’re a progressive agency with our sophisticated ‘kaizen’ delivery process, using the best of traditional waterfall and agile practices in our approach.</p>
+                            <figure>
+                                <img src="assets/img/panels/purveyors-of-process.jpg">
+                            </figure>
+                            <p>It's all about value, ROI and TCO. And we like to show value early on with; key documents, designs, HTML and more. This way should any issues arise or changes be required we can address them promptly minimising waste.</p>
+                            <p>We want you to have a good return for your investment, this means getting the MVP out there in a flash to use for your user-base. And during each project we have in mind the total cost of ownership over the business landscape. Involving getting it right first time so that once the project work is complete, there is minimal unnecessary work for our support team to pick up.</p>
+
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="services/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+
+
+                    <article id="pop3A">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Maximising">Maximising</span>
+                                <span data-line="Experience">Experience</span>
+                            </div>
+                            <h3 class="hl6">Engagement</h3>
+                            <p class="spec">We're passionate about bringing people together to share digital knowhow. We host an assortment of regular events from digital nights, to casual drinks, and community focussed get-togethers.</p>
+
+                            <h2 class="hl5">Quench</h2>
+                            <figure class="small">
+                                <img src="assets/img/panels/engagement-quench.jpg">
+                            </figure>
+                            <p>Four times a year we host informal drinks to gather our team, clients and friends together. Who doesn’t prefer to chat in a bar instead of the boardroom? We always pick a great bar in central London, and naturally the drinks are on us. If you’re intrigued you can find out more and sign up here.</p>
+                            <a href="events/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Quench">More</a>
+
+                            <hr /> 
+
+                            <h2 class="hl5">Fable</h2>
+                            <figure class="small">
+                                <img src="assets/img/panels/engagement-fable.jpg">
+                            </figure>
+                            <p>Fable is our regular seminar bringing together marketers and digital trailblazers. Together with an expert panel of prominent industry speakers, we explore the fluctuating tide of trends and the latest developments within the realm of digital.</p>
+                            <a href="events/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Fable">More</a>
+
+
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="events/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="pop3B">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Find Better">Find Better</span>
+                                <span data-line="Ways">Ways</span>
+                            </div>
+                            <h3 class="hl6">Online Marketing</h3>
+                            <p class="spec">The online marketing industry is an ever-growing smorgasbord often difficult to navigate, we offer a unique perspective fundamentally focusing on the important journey; that of the user.</p>
+                            <figure class="small">
+                                <img src="assets/img/panels/find-better-ways.jpg">
+                            </figure>
+                            <p>By applying our established SEO techniques and cutting edge content marketing we take the time to understand your brand and direction, then tailor a marketing strategy to support perpetual growth. We’ve created a flexible native advertising and PR service to work with you to combine your key aspects making your business stand out in your specific arena.</p>
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="services/online-marketing/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="pop3C">
+                        <div>
+                            <div class="msg">
+                                <span data-line="Time">Time</span>
+                                <span data-line="Well Spent">Well Spent</span>
+                            </div>
+                            <h3 class="hl6">Strategy</h3>
+                            <p class="spec">The combination of beautiful design and smart technology used to be enough - not any more. Emotion, connection and insight now mean more to consumers than ever. We work with clients to challenge and mould strategies, getting this right helps the brands we work with to achieve their goals.</p>
+                            <figure class="small">
+                                <img src="assets/img/panels/time-well-spent.jpg">
+                            </figure>
+                            <p>Whether it’s a fresh brand design and increasing creative needs to be incorporated into existing online space or your online product launch needs to hit the ground running. Having a map of how to get there in the form of a long term digital strategy is where we come in.</p>
+                            <p>We help brands to better utilise digital, from user experience, information architecture, search and social media strategies. We also have in-depth hands-on technical and digital knowledge along with healthy dose of psychological and behavioural insight.
+                            </p>
+                            <div class="cta">
+                                <a class="btn btn--gho-dark js-close-panel" title="Back to office">Back</a>
+                                <a href="services/transformation/index.html" data-type="page-transition" class="btn btn--gho-dark" title="Find out more">More</a>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+
+
+                </section>
+
+                <section class="vt-scene">
+                    <div class="msg room1">
+                        <span data-line="The">The</span>
+                        <span data-line="Map Room">Map Room</span>
+                    </div>
+                    <div class="msg room2">
+                        <span data-line="The">The</span>
+                        <span data-line="Hub">Hub</span>
+                    </div>
+                    <div class="msg room3">
+                        <span data-line="The">The</span>
+                        <span data-line="Board Room">Board Room</span>
+                    </div>
+                </section>
+
+                <div class="vt-fs"><span>Fullscreen</span></div>
+
+
+                <figure class="panels-img">
+                </figure>
+
+
+
+
+                <div class="vt" id="vt"></div>
+
+            </div>
+
+
+        </main>
+
+
+
+
+
+
+        
+        
+
+    </form>
+</body>
+</html>
