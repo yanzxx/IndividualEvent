@@ -1,0 +1,24 @@
+body{
+	padding-top: 50px;
+	
+}
+.k{
+	height: 2000px;
+	width: 100px;
+	border: 1px solid red;
+}
+.carousel{
+	height: 400px;
+	overflow: hidden;
+	background-color: #000;
+}
+.carousel img{
+	height:500px 
+}
+.con{margin-top: 40px}
+.con .col-md-4{
+	text-align: center;
+}
+hr.divider{
+	margin: 40px 0;
+}
