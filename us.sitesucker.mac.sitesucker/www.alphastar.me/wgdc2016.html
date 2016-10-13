@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>WGDC2016</title>
+
+    <style>#iv {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border: none;
+        }
+
+
+
+        .menu-box:active svg .cls-1, .menu-box:hover svg .cls-1 {
+            stroke: #d71919;
+            transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+        }
+
+        .menu-box svg .cls-1 {
+            stroke: #fff;
+            fill: transparent;
+            transition: all .2s ease;
+            -webkit-transition: all .2s ease;
+            -moz-transition: all .2s ease;
+            -ms-transition: all .2s ease;
+            -o-transition: all .2s ease;
+        }
+
+        .cls-1 {
+            fill: none;
+            stroke: #222221;
+            stroke-miterlimit: 10;
+        }
+
+        .cls-1 {
+            fill: #fff;
+        }
+
+        .cls-1 {
+            stroke: #222221;
+            stroke-miterlimit: 10;
+        }
+
+        .cls-1 {
+            fill: none;
+            stroke: #000;
+            stroke-miterlimit: 10;
+        }
+
+        .cls-1 {
+            fill: none;
+            stroke: #222221;
+            stroke-miterlimit: 10;
+        }
+
+        .cls-1 {
+            fill: none;
+            stroke: #222221;
+            stroke-miterlimit: 10;
+        }
+        .menu-icon-map, .menu-icon-map:hover {
+             text-decoration:none;
+        }
+        .menu-icon-map .menu-box-label {
+            display: inline;
+           
+        }
+      .menu-icon-map>i{
+            color:#fff;
+            font-size:20px;
+        }
+        .menu-box .menu-box-label {
+            color: #fff;
+            transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+        }
+
+
+        #hallOverviewContainer .close {
+            background-color: rgba(255,255,255,.75);
+            top: 19px;
+            position: relative;
+        }
+
+        .close:hover, .close:focus {
+            color: #000000;
+            text-decoration: none;
+            cursor: pointer;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }
+
+        .close {
+            background-image: url("ht/images/close.png");
+            background-size: 26px 30px;
+            height: 30px;
+            opacity: 1;
+            margin: 2px;
+            width: 30px;
+        }
+
+        .close {
+            z-index: 1002;
+            cursor: pointer;
+            background-position: center;
+        }
+
+        .close, .close-small {
+            float: left;
+            background-repeat: no-repeat;
+        }
+
+        .close {
+            float: left;
+            margin-right: 300px;
+            font-size: 21px;
+            font-weight: bold;
+            line-height: 1;
+            color: #000000;
+            text-shadow: 0 1px 0 #ffffff;
+            opacity: 0.2;
+            filter: alpha(opacity=20);
+        }
+
+        .blur {
+            -webkit-filter: blur(10px); /* Chrome, Opera */
+            -moz-filter: blur(10px);
+            -ms-filter: blur(10px);
+            filter: blur(10px);
+        }
+
+        .imgHallOverview-link-wrapper {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 5;
+            max-width: 1020px;
+            margin: 0 auto;
+            display: block;
+            left: 0;
+            right: 0;
+        }
+
+        .imgHallOverview-link {
+            position: absolute;
+            top: 0;
+            width: 15%;
+            height: 17%;
+            color: #000;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding-top: 10px;
+            /*float: left;*/
+            /*border: 1px solid red;*/
+        }
+
+            .imgHallOverview-link:hover {
+                color: #000;
+                text-decoration: none;
+                background-color: #5892e2;
+            }
+
+        .imgHallOverview-link-1 {
+            left: 55%;
+            top: 38%;
+            width: 12%;
+            height: 22%;
+            padding-top: 50px;
+            /*float: left;
+              border: 1px solid red;
+              width: 100px;
+              height: 200px;
+              margin-top: 410px;
+              margin-left: 88px;*/
+        }
+
+        .imgHallOverview-link-2 {
+            left: 75%;
+            top: 38%;
+            width: 8%;
+            height: 16%;
+            padding-top: 50px;
+            /*width: 100px;
+              height: 150px;
+              margin-top: 410px;
+              margin-left: 288px;*/
+        }
+
+        .imgHallOverview-link-3 {
+            left: -13%;
+            top: 24%;
+            width: 10%;
+            height: 8%;
+            padding-top: 20px;
+        }
+
+        .imgHallOverview-link-4 {
+            left: -5%;
+            top: 47.2%;
+            width: 9.5%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-5 {
+            left: -5.3%;
+            top: 5.6%;
+            width: 6%;
+            height: 10%;
+            padding-top: 20px;
+        }
+
+        .imgHallOverview-link-6 {
+            left: 5%;
+            top: 9%;
+            width: 6%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-7 {
+            left: 15%;
+            top: 9%;
+            width: 6%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-8 {
+            left: 24%;
+            top: 9%;
+            width: 6.2%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-9 {
+            left: 0.6%;
+            top: 20.5%;
+            width: 6%;
+            height: 10%;
+        }
+
+        .imgHallOverview-link-10 {
+            left: 11%;
+            top: 20.5%;
+            width: 6%;
+            height: 10%;
+        }
+
+        .imgHallOverview-link-11 {
+            left: 21.2%;
+            top: 20.5%;
+            width: 9%;
+            height: 10%;
+        }
+
+        .imgHallOverview-link-12 {
+            left: -13%;
+            top: 36%;
+            width: 6%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-13 {
+            left: -2.5%;
+            top: 35.8%;
+            width: 7%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-14 {
+            left: 8%;
+            top: 35.8%;
+            width: 9%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-15 {
+            left: 21.5%;
+            top: 35.8%;
+            width: 9%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-16 {
+            left: 8%;
+            top: 47%;
+            width: 9%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-17 {
+            left: 21.5%;
+            top: 47%;
+            width: 9%;
+            height: 7%;
+        }
+
+        .imgHallOverview-link-18 {
+            left: -13%;
+            top: 2%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-19 {
+            left: -13%;
+            top: 5.8%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-20 {
+            left: -13%;
+            top: 9%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-21 {
+            left: -13%;
+            top: 12%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-22 {
+            left: -13%;
+            top: 15%;
+            width: 4%;
+            height: 4%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-23 {
+            left: -13%;
+            top: 47%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-24 {
+            left: -13%;
+            top: 51%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-25 {
+            left: -13%;
+            top: 54%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-26 {
+            left: -13%;
+            top: 58%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-27 {
+            left: 33.5%;
+            top: 4.5%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-28 {
+            left: 33.5%;
+            top: 8%;
+            width: 4%;
+            height: 3%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-29 {
+            left: 33.5%;
+            top: 11%;
+            width: 4%;
+            height: 3%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-30 {
+            left: 33.5%;
+            top: 14%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-31 {
+            left: 33.5%;
+            top: 17%;
+            width: 4%;
+            height: 3%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-32 {
+            left: 33.5%;
+            top: 20%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-33 {
+            left: 33.5%;
+            top: 24%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-34 {
+            left: 33.5%;
+            top: 39%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-35 {
+            left: 33.5%;
+            top: 42%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-36 {
+            left: 33.5%;
+            top: 45%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-37 {
+            left: 33.5%;
+            top: 48%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-38 {
+            left: 33.5%;
+            top: 51%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-39 {
+            left: 33.5%;
+            top: 55%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 3px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-40 {
+            left: 33.5%;
+            top: 58%;
+            width: 4%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-41 {
+            left: 4%;
+            top: 58%;
+            width: 3%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-42 {
+            left: 7%;
+            top: 58%;
+            width: 3%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-43 {
+            left: 9.8%;
+            top: 58%;
+            width: 3%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-44 {
+            left: 12.5%;
+            top: 58%;
+            width: 3%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-45 {
+            left: 15.5%;
+            top: 58%;
+            width: 3%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-46 {
+            left: 18.5%;
+            top: 58%;
+            width: 3%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-47 {
+            left: 30%;
+            top: 61%;
+            width: 3%;
+            height: 3.5%;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+
+        .imgHallOverview-link-48 {
+            left: 2.4%;
+            top: 1.5%;
+            width: 2%;
+            height: 3%;
+            padding-top: 3px;
+            font-size: 4px;
+        }
+
+        .imgHallOverview-link-49 {
+            left: 4.8%;
+            top: 1.5%;
+            width: 2.6%;
+            height: 3%;
+            padding-top: 3px;
+            font-size: 4px;
+        }
+
+        .imgHallOverview-link-50 {
+            left: 7.6%;
+            top: 1.5%;
+            width: 2.5%;
+            height: 3%;
+            padding-top: 3px;
+            font-size: 4px;
+        }
+
+        .imgHallOverview-link-51 {
+            left: 10.1%;
+            top: 1.5%;
+            width: 2.5%;
+            height: 3%;
+            padding-top: 3px;
+            font-size: 4px;
+        }
+
+        .imgHallOverview-link-52 {
+            left: 12.6%;
+            top: 1.5%;
+            width: 2.5%;
+            height: 3%;
+            padding-top: 3px;
+            font-size: 4px;
+        }
+
+        .imgHallOverview-link-53 {
+            left: 16.6%;
+            top: 1.5%;
+            width: 2.5%;
+            height: 3%;
+            padding-top: 3px;
+            font-size: 4px;
+        }
+
+        .imgHallOverview-link-54 {
+            left: 19.1%;
+            top: 1.5%;
+            width: 2.5%;
+            height: 3%;
+            padding-top: 3px;
+            font-size: 4px;
+        }
+
+        .imgHallOverview-link-55 {
+            left: 21.6%;
+            top: 1.5%;
+            width: 2%;
+            height: 3%;
+            padding-top: 3px;
+            font-size: 4px;
+        }
+
+        .imgHallOverview-link-56 {
+            left: 23.6%;
+            top: 1.5%;
+            width: 2.5%;
+            height: 3%;
+            padding-top: 3px;
+            font-size: 4px;
+        }
+
+
+        .forward {
+            width: 200px;
+            font-size: 16px;
+            bottom: 200px;
+        }
+
+        .forward {
+            position: absolute; /* relative;*/
+            bottom: 180px;
+            width: 100px;
+            font-size: 12px;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: 1;
+            cursor: pointer;
+            float: left;
+            left: 50%;
+            bottom: 10px;
+        }
+
+        .forward-text {
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 0 1px rgba(0,0,0,1);
+            font-size: 1.2em;
+            transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+        }
+
+        .forward:hover .forward-text {
+            color: #d71919;
+            text-shadow: 0 0 1px rgba(0,0,0,1);
+        }
+
+        .forward svg .cls-1 {
+            fill: #fff;
+            transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+        }
+
+        .forward:hover svg .cls-1 {
+            fill: #d71919;
+        }
+
+        .cls-2 {
+            fill: #222221;
+        }
+
+        .hallmap {
+            height: 600px;
+            min-height: 600px;
+        }
+
+        .SmallBaiduMap {
+            width: 500px;
+            height: 400px;
+            position: absolute;
+            right: 0px;
+            bottom: 20px;
+        }
+    </style>
+    <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+    <link href="http://101.201.153.13:8080/wgdc2016/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="http://101.201.153.13:8080/wgdc2016/IndoorViewerAPI.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-1.10.2.min.js"></script>
+
+</head>
+<body>
+
+    <iframe id="iv" src="http://101.201.153.13:8080/wgdc2016/#?menu.about.visible=false&amp;ui.search.visible=true&amp;menu.mode.visible=false" onmousewheel="" class="indoorViewerFull ng-scope"></iframe>
+    <div class="forward">
+        <svg data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 179.85 82.67">
+            <defs>
+                <style>.cls-1 {
+                        fill: #fff;
+                    }
+
+                    .cls-2 {
+                        fill: #222221;
+                        /*  fill: #ddd;#222221;*/
+                    }
+                </style>
+            </defs>
+            <title>nav-arrow</title>
+            <polygon class="cls-1" points="89.93 7.73 4.59 43.61 2.77 39.27 89.93 2.62 177.08 39.27 175.26 43.61 89.93 7.73"></polygon>
+            <path class="cls-2" d="M89.93,3.17l86.5,36.37L175,43,89.93,7.18,4.86,43,3.42,39.54,89.93,3.17m0-1.08-0.39.16L3,38.62,2.11,39,2.5,39.93l1.44,3.41,0.39,0.92,0.92-.39L89.93,8.27,174.6,43.88l0.92,0.39,0.39-.92,1.43-3.41,0.39-.92-0.92-.39L90.31,2.24l-0.39-.16h0Z"></path>
+            <polygon class="cls-1" points="89.92 25.34 54.88 40.08 53.05 35.74 89.92 20.24 126.79 35.74 124.97 40.08 89.92 25.34"></polygon>
+            <path class="cls-2" d="M89.92,20.78L126.14,36l-1.43,3.41L89.92,24.8,55.14,39.42,53.71,36,89.92,20.78m0-1.08-0.39.16L53.32,35.09l-0.92.39,0.39,0.92,1.44,3.41,0.39,0.92,0.92-.39L89.92,25.88l34.39,14.46,0.92,0.39,0.39-.92,1.43-3.41,0.39-.92-0.92-.39L90.31,19.86l-0.39-.16h0Z"></path>
+            <polygon class="cls-1" points="89.92 40.7 59.2 53.62 57.37 49.28 89.92 35.6 122.47 49.28 120.65 53.62 89.92 40.7"></polygon>
+            <path class="cls-2" d="M89.92,36.14l31.89,13.41L120.38,53,89.92,40.16,59.46,53,58,49.55l31.9-13.41m0-1.08-0.39.16L57.64,48.63,56.72,49l0.39,0.92,1.44,3.41,0.39,0.92,0.92-.39L89.92,41.24,120,53.89l0.92,0.39,0.39-.92,1.43-3.41,0.39-.92-0.92-.39L90.31,35.22l-0.39-.16h0Z"></path>
+            <polygon class="cls-1" points="89.92 56.03 63.37 67.19 61.54 62.86 89.92 50.93 118.3 62.86 116.48 67.19 89.92 56.03"></polygon>
+            <path class="cls-2" d="M89.92,51.47l27.73,11.66-1.43,3.41L89.92,55.49,63.63,66.54,62.2,63.13,89.92,51.47m0-1.08-0.39.16L61.81,62.2l-0.92.39,0.39,0.92,1.44,3.41,0.39,0.92L64,67.46l25.9-10.89,25.9,10.89,0.92,0.39,0.39-.92,1.43-3.41,0.39-.92L118,62.2,90.31,50.55l-0.39-.16h0Z"></path>
+            <polygon class="cls-1" points="89.92 71.49 68.17 80.64 66.35 76.3 89.92 66.39 113.49 76.3 111.67 80.64 89.92 71.49"></polygon>
+            <path class="cls-2" d="M89.92,66.93l22.92,9.64L111.4,80l-21.48-9L68.44,80,67,76.57l22.92-9.64m0-1.08L89.54,66,66.62,75.64,65.7,76,66.08,77l1.44,3.41,0.39,0.92,0.92-.39L89.92,72,111,80.9l0.92,0.39,0.39-.92L113.76,77l0.39-.92-0.92-.39L90.31,66l-0.39-.16h0Z"></path>
+        </svg>
+        <div class="forward-text">点击箭头前进</div>
+    </div>
+
+    <div style="position: absolute; float:left; left: 20px; bottom: 10px;" data-position="leftbottom">
+        <a class="menu-box menu-icon-map" style="float: right;" href="javascript:void(0)" onclick="openOverview()">
+            <i class="fa fa-map-o" aria-hidden="true"></i>           
+            <span class="menu-box-label" data-text-id="interface_button_overview">平面图</span>
+        </a>
+    </div>
+
+
+    <div id="hallOverviewContainer" style="position: absolute; z-index: 1001; text-align: center; height: 909px; width: 1640px; top: 20px; left: 20px;" class="ng-scope">
+        <span class="close" onclick="closeOverview()" title="关闭"></span>
+        <div class="imgHallOverview-wrapper">
+            <img id="imgHallOverview" style="display: block; margin: 0 auto; max-height: 90vh; max-width: 100%; z-index: 3; position: relative;" src="ht/images/WGDC2016.png" usemap="#halloverviewmap" class="hallmap">
+            <div class="imgHallOverview-link-wrapper">
+                <a class="imgHallOverview-link imgHallOverview-link-1" href="javascript:void(0)" onclick="setCurrentHall(1)" alt="签到处">签到处</a>
+                <a class="imgHallOverview-link imgHallOverview-link-2" href="javascript:void(0)" onclick="setCurrentHall(2)" alt="秘书处">秘书处</a>
+                <a class="imgHallOverview-link imgHallOverview-link-3" href="javascript:void(0)" onclick="setCurrentHall(3)" alt="路演区">路演区</a>
+                <a class="imgHallOverview-link imgHallOverview-link-4" href="javascript:void(0)" onclick="setCurrentHall(4)" alt="T12">T12</a>
+                <a class="imgHallOverview-link imgHallOverview-link-5" href="javascript:void(0)" onclick="setCurrentHall(5)" alt="T01">T01</a>
+                <a class="imgHallOverview-link imgHallOverview-link-6" href="javascript:void(0)" onclick="setCurrentHall(6)" alt="T02">T02</a>
+                <a class="imgHallOverview-link imgHallOverview-link-7" href="javascript:void(0)" onclick="setCurrentHall(7)" alt="T03">T03</a>
+                <a class="imgHallOverview-link imgHallOverview-link-8" href="javascript:void(0)" onclick="setCurrentHall(8)" alt="T04">T04</a>
+
+                <a class="imgHallOverview-link imgHallOverview-link-9" href="javascript:void(0)" onclick="setCurrentHall(9)" alt="T05">T05</a>
+                <a class="imgHallOverview-link imgHallOverview-link-10" href="javascript:void(0)" onclick="setCurrentHall(10)" alt="T06">T06</a>
+                <a class="imgHallOverview-link imgHallOverview-link-11" href="javascript:void(0)" onclick="setCurrentHall(11)" alt="T07">T07</a>
+                <a class="imgHallOverview-link imgHallOverview-link-12" href="javascript:void(0)" onclick="setCurrentHall(12)" alt="T08">T08</a>
+                <a class="imgHallOverview-link imgHallOverview-link-13" href="javascript:void(0)" onclick="setCurrentHall(13)" alt="T09">T09</a>
+                <a class="imgHallOverview-link imgHallOverview-link-14" href="javascript:void(0)" onclick="setCurrentHall(14)" alt="T10">T10</a>
+                <a class="imgHallOverview-link imgHallOverview-link-15" href="javascript:void(0)" onclick="setCurrentHall(15)" alt="T11">T11</a>
+                <a class="imgHallOverview-link imgHallOverview-link-16" href="javascript:void(0)" onclick="setCurrentHall(16)" alt="T13">T13</a>
+                <a class="imgHallOverview-link imgHallOverview-link-17" href="javascript:void(0)" onclick="setCurrentHall(17)" alt="T14">T14</a>
+                <a class="imgHallOverview-link imgHallOverview-link-18" href="javascript:void(0)" onclick="setCurrentHall(18)" alt="B01">B01</a>
+                <a class="imgHallOverview-link imgHallOverview-link-19" href="javascript:void(0)" onclick="setCurrentHall(19)" alt="B02">B02</a>
+                <a class="imgHallOverview-link imgHallOverview-link-20" href="javascript:void(0)" onclick="setCurrentHall(20)" alt="B03">B03</a>
+                <a class="imgHallOverview-link imgHallOverview-link-21" href="javascript:void(0)" onclick="setCurrentHall(21)" alt="B04">B04</a>
+                <a class="imgHallOverview-link imgHallOverview-link-22" href="javascript:void(0)" onclick="setCurrentHall(22)" alt="B05">B05</a>
+                <a class="imgHallOverview-link imgHallOverview-link-23" href="javascript:void(0)" onclick="setCurrentHall(23)" alt="B06">B06</a>
+                <a class="imgHallOverview-link imgHallOverview-link-24" href="javascript:void(0)" onclick="setCurrentHall(24)" alt="B07">B07</a>
+                <a class="imgHallOverview-link imgHallOverview-link-25" href="javascript:void(0)" onclick="setCurrentHall(25)" alt="B08">B08</a>
+                <a class="imgHallOverview-link imgHallOverview-link-26" href="javascript:void(0)" onclick="setCurrentHall(26)" alt="B09">B09</a>
+                <a class="imgHallOverview-link imgHallOverview-link-27" href="javascript:void(0)" onclick="setCurrentHall(27)" alt="B10">B10</a>
+                <a class="imgHallOverview-link imgHallOverview-link-28" href="javascript:void(0)" onclick="setCurrentHall(28)" alt="B11">B11</a>
+                <a class="imgHallOverview-link imgHallOverview-link-29" href="javascript:void(0)" onclick="setCurrentHall(29)" alt="B12">B12</a>
+                <a class="imgHallOverview-link imgHallOverview-link-30" href="javascript:void(0)" onclick="setCurrentHall(30)" alt="B13">B13</a>
+                <a class="imgHallOverview-link imgHallOverview-link-31" href="javascript:void(0)" onclick="setCurrentHall(31)" alt="B14">B14</a>
+                <a class="imgHallOverview-link imgHallOverview-link-32" href="javascript:void(0)" onclick="setCurrentHall(32)" alt="B15">B15</a>
+                <a class="imgHallOverview-link imgHallOverview-link-33" href="javascript:void(0)" onclick="setCurrentHall(33)" alt="B16">B16</a>
+                <a class="imgHallOverview-link imgHallOverview-link-34" href="javascript:void(0)" onclick="setCurrentHall(34)" alt="B17">B17</a>
+                <a class="imgHallOverview-link imgHallOverview-link-35" href="javascript:void(0)" onclick="setCurrentHall(35)" alt="B18">B18</a>
+                <a class="imgHallOverview-link imgHallOverview-link-36" href="javascript:void(0)" onclick="setCurrentHall(36)" alt="B19">B19</a>
+                <a class="imgHallOverview-link imgHallOverview-link-37" href="javascript:void(0)" onclick="setCurrentHall(37)" alt="B20">B20</a>
+                <a class="imgHallOverview-link imgHallOverview-link-38" href="javascript:void(0)" onclick="setCurrentHall(38)" alt="B21">B21</a>
+                <a class="imgHallOverview-link imgHallOverview-link-39" href="javascript:void(0)" onclick="setCurrentHall(39)" alt="B22">B22</a>
+                <a class="imgHallOverview-link imgHallOverview-link-40" href="javascript:void(0)" onclick="setCurrentHall(40)" alt="B23">B23</a>
+                <a class="imgHallOverview-link imgHallOverview-link-41" href="javascript:void(0)" onclick="setCurrentHall(41)" alt="B24">B24</a>
+                <a class="imgHallOverview-link imgHallOverview-link-42" href="javascript:void(0)" onclick="setCurrentHall(42)" alt="B25">B25</a>
+                <a class="imgHallOverview-link imgHallOverview-link-43" href="javascript:void(0)" onclick="setCurrentHall(43)" alt="B26">B26</a>
+                <a class="imgHallOverview-link imgHallOverview-link-44" href="javascript:void(0)" onclick="setCurrentHall(44)" alt="B27">B27</a>
+                <a class="imgHallOverview-link imgHallOverview-link-45" href="javascript:void(0)" onclick="setCurrentHall(45)" alt="B28">B28</a>
+                <a class="imgHallOverview-link imgHallOverview-link-46" href="javascript:void(0)" onclick="setCurrentHall(46)" alt="B29">B29</a>
+                <a class="imgHallOverview-link imgHallOverview-link-47" href="javascript:void(0)" onclick="setCurrentHall(47)" alt="B30">B30</a>
+                <a class="imgHallOverview-link imgHallOverview-link-48" href="javascript:void(0)" onclick="setCurrentHall(48)" alt="C01">C01</a>
+                <a class="imgHallOverview-link imgHallOverview-link-49" href="javascript:void(0)" onclick="setCurrentHall(49)" alt="C02">C02</a>
+                <a class="imgHallOverview-link imgHallOverview-link-50" href="javascript:void(0)" onclick="setCurrentHall(50)" alt="C04">C03</a>
+                <a class="imgHallOverview-link imgHallOverview-link-51" href="javascript:void(0)" onclick="setCurrentHall(51)" alt="C04">C04</a>
+                <a class="imgHallOverview-link imgHallOverview-link-52" href="javascript:void(0)" onclick="setCurrentHall(52)" alt="C05">C05</a>
+                <a class="imgHallOverview-link imgHallOverview-link-53" href="javascript:void(0)" onclick="setCurrentHall(53)" alt="C06">C06</a>
+                <a class="imgHallOverview-link imgHallOverview-link-54" href="javascript:void(0)" onclick="setCurrentHall(54)" alt="C07">C07</a>
+                <a class="imgHallOverview-link imgHallOverview-link-55" href="javascript:void(0)" onclick="setCurrentHall(55)" alt="C08">C08</a>
+                <a class="imgHallOverview-link imgHallOverview-link-56" href="javascript:void(0)" onclick="setCurrentHall(56)" alt="C09">C09</a>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        /*
+        本示例演示了两个功能：
+        1、如何通过iframe加载三维实景数据服务页面
+        2、如何通过二维平面图进行三维场景的切换。
+        */
+
+        //iframe方式加载三维实景数据服务页面
+        var base_url = "http://101.201.153.13:8080/wgdc2016";
+        var extra_opts1 = "&menu.about.visible=false&ui.search.visible=true&menu.mode.visible=false&poi.fullscreen=false&layers.map.visible=true&menu.settings.visible=false&menu.datasets.visible=false&menu.share.visible=false&menu.newwindow.visible=false";
+
+        jQuery(document).ready(function () {
+            var _FirstUrl = base_url + '/#?1=1' + extra_opts1;
+            $("#iv").attr("src", _FirstUrl);
+            //设置iframe的高度
+            InitFrameHeight();
+            closeOverview();
+        });
+
+        function InitFrameHeight() {
+            //设置iframe的高度
+            var nHeight = $(window).height();
+            $("#iv").height(nHeight);
+
+        }
+
+
+        //显示平面图
+        function openOverview() {
+            $("#iv").addClass("blur");
+            $(".forward").hide();
+            $("#hallOverviewContainer").show();
+        }
+        //隐藏平面图
+        function closeOverview() {
+            $("#hallOverviewContainer").hide();
+            $(".forward").show();
+            $("#iv").removeClass("blur");
+        }
+        //三维场景切换
+        function setCurrentHall(e) {
+            var location = "";
+            var url = base_url + '/#?1=1' + extra_opts1;
+
+            var o, n = {};
+            switch (e) {
+                case 1:
+                    o = "8",
+                    n = {
+                        lon: 3.20,
+                        lat: 0.07
+                    },
+                    location = "&core.init.lon=3.20&core.init.lat=0.07&fov=100.0&image=8";
+                    url += location;
+                    break;
+                case 2:
+                    o = "7",
+                    n = {
+                        lon: 5.83,
+                        lat: -0.09
+                    },
+                    location = "&core.init.lon=5.83&core.init.lat=-0.09&fov=100.0&image=7";
+                    url += location;
+                    break;
+                case 3:
+                    o = "102",
+                    n = {
+                        lon: 3.22,
+                        lat: -0.14
+                    },
+
+                    location = "&core.init.lon=3.22&core.init.lat=-0.14&fov=100.0&image=102";
+                    url += location;
+                    break;
+                case 4:
+                    o = "139",
+                    n = {
+                        lon: 4.94,
+                        lat: -0.26
+                    },
+                       location = "&core.init.lon=4.94&core.init.lat=-0.26&fov=100.0&image=139";
+                    url += location;
+
+                    break;
+                case 5:
+                    o = "97",
+                    n = {
+                        lon: 6.73,
+                        lat: 0.21
+                    },
+                    //indoorViewer.moveToLocationID(o, n);
+                    location = "&core.init.lon=6.73&core.init.lat=0.21&fov=100.0&image=97";
+                    url += location;
+                    break;
+                case 6:
+                    o = "225",
+                    n = {
+                        lon: 7.70,
+                        lat: -0.20
+                    },
+                     location = "&core.init.lon=7.70&core.init.lat=-0.20&fov=100.0&image=225";
+                    url += location;
+                    break;
+                case 7:
+                    o = "232",
+                    n = {
+                        lon: 1.89,
+                        lat: -0.27
+                    },
+                     location = "&core.init.lon=1.89&core.init.lat=-0.27&fov=100.0&image=232";
+                    url += location;
+                    break;
+                case 8:
+                    o = "240",
+                    n = {
+                        lon: 1.48,
+                        lat: -0.22
+                    },
+                     location = "&core.init.lon=1.48&core.init.lat=-0.22&fov=100.0&image=240";
+                    url += location;
+                    break;
+
+
+                case 9:
+                    o = "263",
+                    n = {
+                        lon: 3.32,
+                        lat: -0.09
+                    },
+                     location = "&core.init.lon=3.32&core.init.lat=-0.09&fov=100.0&image=263";
+                    url += location;
+                    break;
+                case 10:
+                    o = "247",
+                    n = {
+                        lon: 3.25,
+                        lat: -0.11
+                    },
+                     location = "&core.init.lon=3.25&core.init.lat=-0.11&fov=100.0&image=247";
+                    url += location;
+                    break;
+                case 11:
+                    o = "324",
+                    n = {
+                        lon: 2.18,
+                        lat: 0.12
+                    },
+                     location = "&core.init.lon=2.18&core.init.lat=0.12&fov=100.0&image=324";
+                    url += location;
+                    break;
+                case 12:
+                    o = "115",
+                    n = {
+                        lon: 2.40,
+                        lat: 0.19
+                    },
+                     location = "&core.init.lon=2.40&core.init.lat=0.19&fov=100.0&image=115";
+                    url += location;
+                    break;
+                case 13:
+                    o = "270",
+                    n = {
+                        lon: 3.50,
+                        lat: -0.01
+                    },
+                     location = "&core.init.lon=3.50&core.init.lat=-0.01&fov=100.0&image=270";
+                    url += location;
+                    break;
+                case 14:
+                    o = "251",
+                    n = {
+                        lon: 4.05,
+                        lat: 0.04
+                    },
+                     location = "&core.init.lon=4.05&core.init.lat=0.04&fov=100.0&image=251";
+                    url += location;
+                    break;
+                case 15:
+                    o = "323",
+                    n = {
+                        lon: 4.35,
+                        lat: 0.14
+                    },
+                     location = "&core.init.lon=4.35&core.init.lat=0.14&fov=100.0&image=323";
+                    url += location;
+                    break;
+                case 16:
+                    o = "277",
+                    n = {
+                        lon: 4.94,
+                        lat: 0.18
+                    },
+                     location = "&core.init.lon=4.94&core.init.lat=0.18&fov=100.0&image=277";
+                    url += location;
+                    break;
+                case 17:
+                    o = "293",
+                    n = {
+                        lon: 4.95,
+                        lat: -0.14
+                    },
+                     location = "&core.init.lon=4.95&core.init.lat=-0.14&fov=100.0&image=293";
+                    url += location;
+                    break;
+                case 18:
+                    o = "91",
+                    n = {
+                        lon: 9.15,
+                        lat: -0.17
+                    },
+                     location = "&core.init.lon=9.15&core.init.lat=-0.17&fov=100.0&image=91";
+                    url += location;
+                    break;
+                case 19:
+                    o = "93",
+                    n = {
+                        lon: 9.16,
+                        lat: -0.10
+                    },
+                     location = "&core.init.lon=9.16&core.init.lat=-0.10&fov=100.0&image=93";
+                    url += location;
+                    break;
+                case 20:
+                    o = "94",
+                    n = {
+                        lon: 9.67,
+                        lat: -0.08
+                    },
+                     location = "&core.init.lon=9.67&core.init.lat=-0.08&fov=100.0&image=94";
+                    url += location;
+                    break;
+                case 21:
+                    o = "96",
+                    n = {
+                        lon: 9.38,
+                        lat: -0.10
+                    },
+                     location = "&core.init.lon=9.38&core.init.lat=-0.10&fov=100.0&image=96";
+                    url += location;
+                    break;
+                case 22:
+                    o = "97",
+                    n = {
+                        lon: 9.73,
+                        lat:0.03
+                    },
+                     location = "&core.init.lon=9.73&core.init.lat=0.03&fov=100.0&image=97";
+                    url += location;
+                    break;
+                case 23:
+                    o = "121",
+                    n = {
+                        lon: 9.54,
+                        lat: -0.04
+                    },
+                     location = "&core.init.lon=9.54&core.init.lat=-0.04&fov=100.0&image=121";
+                    url += location;
+                    break;
+                case 24:
+                    o = "123",
+                    n = {
+                        lon: 9.37,
+                        lat: -0.26
+                    },
+                     location = "&core.init.lon=9.37&core.init.lat=-0.26&fov=100.0&image=123";
+                    url += location;
+                    break;
+                case 25:
+                    o = "125",
+                    n = {
+                        lon: 9.52,
+                        lat: -0.02
+                    },
+                     location = "&core.init.lon=9.52&core.init.lat=-0.02&fov=100.0&image=125";
+                    url += location;
+                    break;
+                case 26:
+                    o = "125",
+                    n = {
+                        lon: 10.20,
+                        lat: -0.13
+                    },
+                     location = "&core.init.lon=10.20&core.init.lat=-0.13&fov=100.0&image=125";
+                    url += location;
+                    break;
+                case 27:
+                    o = "196",
+                    n = {
+                        lon: 6.53,
+                        lat: -0.03
+                    },
+                     location = "&core.init.lon=6.53&core.init.lat=-0.03&fov=100.0&image=196";
+                    url += location;
+                    break;
+                case 28:
+                    o = "195",
+                    n = {
+                        lon: 6.29,
+                        lat: -0.13
+                    },
+                     location = "&core.init.lon=6.29&core.init.lat=-0.13&fov=100.0&image=195";
+                    url += location;
+                    break;
+                case 29:
+                    o = "193",
+                    n = {
+                        lon: 6.40,
+                        lat: -0.03
+                    },
+                     location = "&core.init.lon=6.40&core.init.lat=-0.03&fov=70.0&image=193";
+                    url += location;
+                    break;
+                case 30:
+                    o = "191",
+                    n = {
+                        lon: 6.50,
+                        lat: -0.09
+                    },
+                     location = "&core.init.lon=6.50&core.init.lat=-0.09&fov=70.0&image=191";
+                    url += location;
+                    break;
+                case 31:
+                    o = "190",
+                    n = {
+                        lon: 6.20,
+                        lat: -0.11
+                    },
+                     location = "&core.init.lon=6.20&core.init.lat=-0.11&fov=70.0&image=190";
+                    url += location;
+                    break;
+                case 32:
+                    o = "188",
+                    n = {
+                        lon: 6.34,
+                        lat: -0.07
+                    },
+                     location = "&core.init.lon=6.34&core.init.lat=-0.07&fov=70.0&image=188";
+                    url += location;
+                    break;
+                case 33:
+                    o = "186",
+                    n = {
+                        lon: 6.55,
+                        lat: -0.04
+                    },
+                     location = "&core.init.lon=6.55&core.init.lat=-0.04&fov=70.0&image=188";
+                    url += location;
+                    break;
+                case 34:
+                    o = "182",
+                    n = {
+                        lon: 5.61,
+                        lat: -0.07
+                    },
+                     location = "&core.init.lon=5.61&core.init.lat=-0.07&fov=70.0&image=182";
+                    url += location;
+                    break;
+                case 35:
+                    o = "179",
+                    n = {
+                        lon: 6.31,
+                        lat: -0.01
+                    },
+                     location = "&core.init.lon=6.31&core.init.lat=-0.01&fov=70.0&image=179";
+                    url += location;
+                    break;
+                case 36:
+                    o = "177",
+                    n = {
+                        lon: 6.43,
+                        lat: 0.05
+                    },
+                     location = "&core.init.lon=6.43&core.init.lat=0.05&fov=70.0&image=177";
+                    url += location;
+                    break;
+                case 37:
+                    o = "175",
+                    n = {
+                        lon: 6.44,
+                        lat: -0.06
+                    },
+                     location = "&core.init.lon=6.44&core.init.lat=-0.06&fov=70.0&image=175";
+                    url += location;
+                    break;
+                case 38:
+                    o = "174",
+                    n = {
+                        lon: 6.34,
+                        lat: -0.04
+                    },
+                     location = "&core.init.lon=6.34&core.init.lat=-0.04&fov=70.0&image=174";
+                    url += location;
+                    break;
+                case 39:
+                    o = "173",
+                    n = {
+                        lon: 6.07,
+                        lat: -0.10
+                    },
+                     location = "&core.init.lon=6.07&core.init.lat=-0.10&fov=70.0&image=173";
+                    url += location;
+                    break;
+                case 40:
+                    o = "172",
+                    n = {
+                        lon: 5.64,
+                        lat: -0.04
+                    },
+                     location = "&core.init.lon=5.64&core.init.lat=-0.04&fov=70.0&image=172";
+                    url += location;
+                    break;
+                case 41:
+                    o = "160",
+                    n = {
+                        lon: 4.08,
+                        lat: -0.02
+                    },
+                     location = "&core.init.lon=4.08&core.init.lat=-0.02&fov=100.0&image=160";
+                    url += location;
+                    break;
+                case 42:
+                    o = "160",
+                    n = {
+                        lon: 5.44,
+                        lat: -0.01
+                    },
+                     location = "&core.init.lon=5.44&core.init.lat=-0.01&fov=100.0&image=160";
+                    url += location;
+                    break;
+                case 43:
+                    o = "163",
+                    n = {
+                        lon: 4.46,
+                        lat: -0.14
+                    },
+                     location = "&core.init.lon=4.46&core.init.lat=-0.14&fov=100.0&image=163";
+                    url += location;
+                    break;
+                case 44:
+                    o = "163",
+                    n = {
+                        lon: 5.32,
+                        lat: -0.13
+                    },
+                     location = "&core.init.lon=5.32&core.init.lat=-0.13&fov=100.0&image=163";
+                    url += location;
+                    break;
+                case 45:
+                    o = "163",
+                    n = {
+                        lon: 5.32,
+                        lat: -0.13
+                    },
+                     location = "&core.init.lon=5.32&core.init.lat=-0.13&fov=100.0&image=163";
+                    url += location;
+                    break;
+                case 46:
+                    o = "163",
+                    n = {
+                        lon: 5.32,
+                        lat: -0.13
+                    },
+                     location = "&core.init.lon=5.32&core.init.lat=-0.13&fov=100.0&image=163";
+                    url += location;
+                    break;
+                case 47:
+                    o = "172",
+                    n = {
+                        lon: 4.61,
+                        lat: -0.04
+                    },
+                     location = "&core.init.lon=4.61&core.init.lat=-0.04&fov=100.0&image=172";
+                    url += location;
+                    break;
+                case 48:
+                    o = "212",
+                    n = {
+                        lon: 1.56,
+                        lat: -0.09
+                    },
+                     location = "&core.init.lon=1.56&core.init.lat=-0.09&fov=100.0&image=212";
+                    url += location;
+                    break;
+                case 49:
+                    o = "211",
+                    n = {
+                        lon: 1.19,
+                        lat: -0.01
+                    },
+                     location = "&core.init.lon=1.19&core.init.lat=-0.01&fov=100.0&image=211";
+                    url += location;
+                    break;
+                case 50:
+                    o = "210",
+                    n = {
+                        lon: 1.41,
+                        lat: -0.11
+                    },
+                     location = "&core.init.lon=1.41&core.init.lat=-0.11&fov=100.0&image=210";
+                    url += location;
+                    break;
+                case 51:
+                    o = "209",
+                    n = {
+                        lon: 1.31,
+                        lat: -0.11
+                    },
+                     location = "&core.init.lon=1.31&core.init.lat=-0.11&fov=100.0&image=209";
+                    url += location;
+                    break;
+                case 52:
+                    o = "207",
+                    n = {
+                        lon: 1.61,
+                        lat: -0.07
+                    },
+                     location = "&core.init.lon=1.61&core.init.lat=-0.07&fov=100.0&image=207";
+                    url += location;
+                    break;
+                case 53:
+                    o = "203",
+                    n = {
+                        lon: 1.61,
+                        lat: -0.01
+                    },
+                     location = "&core.init.lon=1.61&core.init.lat=-0.01&fov=100.0&image=203";
+                    url += location;
+                    break;
+                case 54:
+                    o = "202",
+                    n = {
+                        lon: 1.61,
+                        lat: -0.01
+                    },
+                     location = "&core.init.lon=1.61&core.init.lat=-0.01&fov=100.0&image=202";
+                    url += location;
+                    break;
+                case 55:
+                    o = "202",
+                    n = {
+                        lon: 1.14,
+                        lat: -0.13
+                    },
+                     location = "&core.init.lon=1.14&core.init.lat=-0.13&fov=100.0&image=202";
+                    url += location;
+                    break;
+                case 56:
+                    o = "202",
+                    n = {
+                        lon: 1.14,
+                        lat: -0.13
+                    },
+                     location = "&core.init.lon=1.14&core.init.lat=-0.13&fov=100.0&image=202";
+                    url += location;
+                    break;
+
+                default:
+                    o = 14,
+                    n = {
+                        lon: 4.16,
+                        lat: -0.10
+                    },
+                    location = "&core.init.lon=4.16&core.init.lat=-0.10&fov=100.0&image=14";
+                    url += location;
+                    break;
+
+            }
+            $("#iv").attr("src", url);
+            closeOverview();
+        }
+
+        $(".forward").click(function () {
+            var location = "";
+            var url = base_url + '/#?1=1' + extra_opts1;
+            var frmUrl = $("#iv").attr("src");
+          
+            var allParaArray = frmUrl.split('&');
+            //alert(jQuery.inArray("image=7", allParaArray));
+            var filterarray = $.grep(allParaArray, function (value) {
+
+                return value.indexOf("image=") > -1;//筛选出包含image的参数
+            });
+            if (filterarray != null && filterarray.length > 0) {
+                var imgArr = filterarray[0].split('=');
+                location = "&image=" + (parseInt(imgArr[1]) + 1);
+                url += location;
+            }
+            else {
+                location = "&image=9";
+                url += location;
+            }
+            //alert(url);
+            $("#iv").attr("src", url);
+
+        });
+        //键盘事件绑定
+        $(document).keyup(function (e) {
+            var key = e.keyCode;
+            var location = "";
+            var url = base_url + '/#?1=1' + extra_opts1;
+            var frmUrl = $("#iv").attr("src");
+            var allParaArray = frmUrl.split('&');
+            //alert(jQuery.inArray("image=7", allParaArray));
+            var filterarray = $.grep(allParaArray, function (value) {
+
+                return value.indexOf("image=") > -1;//筛选出包含image的参数
+            });
+            var curImgId = 9;
+            if (filterarray != null && filterarray.length > 0) {
+                var imgArr = filterarray[0].split('=');
+                curImgId = parseInt(imgArr[1]);
+            }
+
+
+            //四个方向键的键码分别是37（左）、38（上）、39（右）和40（下）。
+            switch (key) {
+                case 37:
+                    break;
+                case 38:
+                    curImgId += 1;
+                    break;
+                case 39:
+                    break;
+                case 40:
+                    curImgId -= 1;
+                    break;
+            }
+            location = "&image=" + (curImgId);
+            url += location;
+            $("#iv").attr("src", url);
+        });
+    </script>
+</body>
+</html>

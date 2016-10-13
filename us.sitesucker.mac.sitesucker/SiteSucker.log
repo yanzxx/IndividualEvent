@@ -1,0 +1,24 @@
+
+16/10/13 下午9:11:12 - ERROR: Download of "http://www.alphastar.me/ht/fonts/fontawesome-webfont.woff?v=4.1.0",
+	referenced from "/Users/Yanzx/Downloads/us.sitesucker.mac.sitesucker/www.alphastar.me/ht/css/font-awesome.min.css",
+	failed with error code 404 (not found)
+16/10/13 下午9:11:12 - ERROR: Download of "http://www.alphastar.me/ht/fonts/fontawesome-webfont.svg?v=4.1.0",
+	referenced from "/Users/Yanzx/Downloads/us.sitesucker.mac.sitesucker/www.alphastar.me/ht/css/font-awesome.min.css",
+	failed with error code 404 (not found)
+16/10/13 下午9:11:14 - ERROR: Download of "http://www.alphastar.me/ht/fonts/glyphicons-halflings-regular.eot",
+	referenced from "/Users/Yanzx/Downloads/us.sitesucker.mac.sitesucker/www.alphastar.me/ht/css/bootstrap.min.css",
+	failed with error code 404 (not found)
+16/10/13 下午9:11:14 - ERROR: Download of "http://www.alphastar.me/ht/fonts/glyphicons-halflings-regular.eot?",
+	referenced from "/Users/Yanzx/Downloads/us.sitesucker.mac.sitesucker/www.alphastar.me/ht/css/bootstrap.min.css",
+	failed with error code 404 (not found)
+16/10/13 下午9:11:14 - ERROR: Download of "http://www.alphastar.me/ht/fonts/glyphicons-halflings-regular.woff",
+	referenced from "/Users/Yanzx/Downloads/us.sitesucker.mac.sitesucker/www.alphastar.me/ht/css/bootstrap.min.css",
+	failed with error code 404 (not found)
+16/10/13 下午9:11:14 - ERROR: Download of "http://www.alphastar.me/ht/fonts/glyphicons-halflings-regular.ttf",
+	referenced from "/Users/Yanzx/Downloads/us.sitesucker.mac.sitesucker/www.alphastar.me/ht/css/bootstrap.min.css",
+	failed with error code 404 (not found)
+16/10/13 下午9:11:14 - ERROR: Download of "http://www.alphastar.me/ht/fonts/glyphicons-halflings-regular.svg",
+	referenced from "/Users/Yanzx/Downloads/us.sitesucker.mac.sitesucker/www.alphastar.me/ht/css/bootstrap.min.css",
+	failed with error code 404 (not found)
+
+---------------------

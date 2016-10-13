@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>视景系统演示</title>
+    <meta charset="utf-8" />
+
+    <script src="http://101.201.153.13:8080/ioffice/IndoorViewerAPI.js"></script>
+</head>
+<body>
+    <div class="indoorViewerFull ng-scope" ng-include="" src="'iv.html'"></div>
+    <script type="text/javascript">
+        var indoorViewer = new IndoorViewer({
+            'base_url': '//101.201.153.13:8080/ioffice',
+            'ui.poi_panel.visible': true,                
+            'ui.floorchanger.visible': false,
+            'menu.datasets.visible': false,
+            'menu.poi.visible': true,
+            'menu.pointcloud.visible': true,
+            'menu.mode.visible': false,
+            'menu.view.visible': true,
+            'menu.share.visible': false,
+            'menu.about.visible': false,
+            'ui.search.visible': true,
+            'layers.map.visible': true,
+            'menu.settings.visible':false
+        });
+    </script>
+</body>
+</html>
